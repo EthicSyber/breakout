@@ -1,5 +1,6 @@
-from pattern_designer import *
-from pallete import *
+from design.pattern_designer import *
+from design.pallete import *
+from Test.main import vault
 
 class LevelDesign(PatternDesign):
     def __init__(self):
@@ -8,23 +9,12 @@ class LevelDesign(PatternDesign):
 
     def stage_one(self, level=1):
         if level == 1:
-            self.walls += self.block_pattern(color=RED_PALLETE)
+            self.walls += vault()
         elif level == 2:
-            self.walls += self.block_pattern(color=BLUE_PALLETE)
+            self.walls += self.double_block_pattern(pallete1=YELLOW_GOLD_PALLETE, pallete2=GREEN_PALLETE)
+            self.walls += self.gate_pattern()
         elif level == 3:
-            self.walls += self.block_pattern(color=GREEN_PALLETE)
-    
-    def stage_one_bonus(self):
-        self.walls += self.double_block_pattern(pallete1=YELLOW_GOLD_PALLETE, pallete2=GREEN_PALLETE)
-        self.walls += self.gate_pattern()
-
-    def stage_two(self, level=5):
-        if level == 5:
             self.walls += self.double_block_pattern(pallete1=BLUE_PALLETE, pallete2=RED_PALLETE)
-            self.walls += self.gate_pattern()
-        elif level == 6:
-            self.walls += self.double_block_pattern(pallete1=GRAY_PALLETE, pallete2=GREEN_PALLETE)
-            self.walls += self.gate_pattern()
     
     def test_level_design(self):
         self.walls += self.brick_wall()
