@@ -1,6 +1,6 @@
 import turtle
-from paddle import Paddle
-from ball import Ball
+from assets.player.paddle import Paddle
+from assets.player.ball import Ball
 from design.level_designer import LevelDesign
 import time
 
