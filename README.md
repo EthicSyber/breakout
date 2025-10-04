@@ -15,9 +15,9 @@ Current schedule for the project is halted due to other competing priorities. En
     <td>Level 3: Escape</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/b88d487e-de82-4e58-b3f0-b7680ff6c147"></td>
-    <td><img src="https://github.com/user-attachments/assets/66d50cb4-1231-4cca-a032-980541cf6629"></td>
-    <td><img src="https://github.com/user-attachments/assets/316cf74d-4291-41d3-9b35-995240bb810c"></td>
+    <td><img src="https://github.com/user-attachments/assets/b88d487e-de82-4e58-b3f0-b7680ff6c147" width=280 height=400></td>
+    <td><img src="https://github.com/user-attachments/assets/66d50cb4-1231-4cca-a032-980541cf6629" width=280 height=400></td>
+    <td><img src="https://github.com/user-attachments/assets/316cf74d-4291-41d3-9b35-995240bb810c" width=280 height=400></td>
   </tr>
 </table>
 
