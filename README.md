@@ -1,6 +1,6 @@
 # BREAKOUT
 
-A game reminiscent of the of the <a href=https://en.wikipedia.org/wiki/Breakout_(video_game)">1976 action video game</a> on ATARI. Only now with a little twist.
+A game reminiscent of the of the <a href="https://en.wikipedia.org/wiki/Breakout_(video_game)"> 1976 action video game</a> on ATARI. Only now with a little twist.
 
 I plan on completing further designs and creating new stages with better levels, unique sounds, and a scoreboard for points. 
 
